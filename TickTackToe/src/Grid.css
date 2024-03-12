@@ -1,0 +1,43 @@
+.grid{
+    background-color: rgb(230, 178, 7);
+    border-radius: 1cap;
+    border: 10px outset rgba(202, 94, 6, 0.836);
+    height: 370px;
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.grid-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.turn{
+    font-size: 30px;
+    color: rgb(20, 240, 240); 
+}
+.winner{
+    font-size: 40px;
+    color: rgb(20, 240, 240); 
+}
+.reset{
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(143, 141, 141);
+    border: 4px outset rgb(88, 87, 87);
+}
+.game{
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+.player{
+    font-size: 40px;
+    color: rgb(20, 240, 240); 
+}

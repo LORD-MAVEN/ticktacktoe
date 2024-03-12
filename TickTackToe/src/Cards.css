@@ -1,0 +1,15 @@
+.card{
+    width: 75px;
+    height: 75px;
+    border-radius: 1.5cap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 8px outset rgba(192, 27, 8, 0.856);
+    transition: border-color 0.3s ease;
+}
+.card:hover{
+    border-color: #0056b3;
+}
